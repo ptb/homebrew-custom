@@ -4,9 +4,9 @@ cask :v1 => 'text-to-speech-allison' do
 
   homepage 'https://support.apple.com/kb/PH18734'
 
-  url 'http://depot.ptb2.me/Software/MultiLingualVoice_en_US_allison.pkg'
+  url 'http://depot.ptb2.me/Software/apple.com/OS%20X/Voices/Text-to-Speech%20Allison.pkg'
   sha256 'c8f54f2a3a8d21d4113544edb9e549a08df5bf599c7d822b419df7358efd3647'
-  pkg 'MultiLingualVoice_en_US_allison.pkg'
+  pkg 'Text-to-Speech Allison.pkg'
 
   license :commercial
 end
