@@ -1,4 +1,4 @@
-cask :v1 => 'bbedit' do
+cask :v1 => 'bbedit10' do
   name 'BBEdit'
   version '10.5.13'
 
