@@ -1,4 +1,4 @@
-cask :v1 => 'sublime-text' do
+cask :v1 => 'sublimetext3' do
   name 'Sublime Text 3'
   version '3083'
 
