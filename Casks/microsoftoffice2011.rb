@@ -1,4 +1,4 @@
-cask :v1 => 'microsoft-office-2011' do
+cask :v1 => 'microsoftoffice2011' do
   name 'Microsoft Office 2011'
   version '14.5.0'
 
