@@ -1,4 +1,4 @@
-cask :v1 => '1password' do
+cask :v1 => '1password-ptb' do
   name '1Password'
   version '5.3'
 
