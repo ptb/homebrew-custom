@@ -1,4 +1,4 @@
-cask :v1 => 'sketchup-pro-8' do
+cask :v1 => 'sketchuppro' do
   name 'SketchUp Pro'
   version '8.0.16845'
 
