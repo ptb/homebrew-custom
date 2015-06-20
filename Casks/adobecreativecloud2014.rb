@@ -4,9 +4,9 @@ cask :v1 => 'adobecreativecloud2014' do
 
   homepage 'https://creative.adobe.com/products/creative-cloud'
 
-  url 'http://depot.ptb2.me/Software/adobe.com/Creative%20Cloud%2FAdobe%20Creative%20Cloud%202014%20%28Intel%2064-bit%29.pkg'
+  url 'http://depot.ptb2.me/Software/adobe.com/Creative%20Cloud%2FAdobe%20Creative%20Cloud%202014.pkg'
   sha256 '3c419be9ec4ecc8c281850ab033528a8a12411adb05ffec1d966b98f845476ff'
-  pkg 'Adobe Creative Cloud 2014 (Intel 64-bit).pkg'
+  pkg 'Adobe Creative Cloud 2014.pkg'
 
   license :commercial
 end
