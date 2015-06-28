@@ -4,7 +4,7 @@ cask :v1 => 'keynote' do
 
   homepage 'http://www.apple.com/mac/keynote/'
 
-  url 'http://depot.ptb2.me/Software/apple.com/Keynote/Keynote%206.5.3.dmg'
+  url 'http://boxen.ptb2.me/Software/apple.com/Keynote/Keynote%206.5.3.dmg'
   sha256 '7dfb4709d82a7cf22e813902a1b738c470c4df1dcae9ed30cd15c5e23947083a'
   app 'Keynote.app'
 
