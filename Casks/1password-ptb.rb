@@ -4,7 +4,7 @@ cask :v1 => '1password-ptb' do
 
   homepage 'https://agilebits.com/onepassword/mac'
 
-  url 'http://setup.ptb2.me/Software/agilebits.com/1Password/1Password%205.3.pkg'
+  url 'https://setup.ptb2.me/Software/agilebits.com/1Password/1Password%205.3.pkg'
   sha256 'c908f0ec8b804561c5fc7c64d39ef54e18f98f042d6b9ae055ba2a47992277fd'
   pkg '1Password 5.3.pkg'
 
