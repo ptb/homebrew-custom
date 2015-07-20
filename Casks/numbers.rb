@@ -4,9 +4,9 @@ cask :v1 => 'numbers' do
 
   homepage 'http://www.apple.com/mac/numbers/'
 
-  url 'https://setup/Software/apple.com/Numbers/Numbers%203.5.3.dmg'
-  sha256 'f271030a861a407e96dc20f50f3663b5b0208d94848ff781c86270de8b78063d'
-  app 'Numbers.app'
+  url 'https://setup/Software/apple.com/Numbers/Numbers%203.5.3.pkg'
+  sha256 'd49d233a4a34e2df2ebe45522ad681fd37d5acc908a863f104ed06beb9c21438'
+  pkg 'Numbers 3.5.3.pkg'
 
   license :commercial
 end

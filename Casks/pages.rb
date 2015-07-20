@@ -4,9 +4,9 @@ cask :v1 => 'pages' do
 
   homepage 'http://www.apple.com/mac/pages/'
 
-  url 'https://setup/Software/apple.com/Pages/Pages%205.5.3.dmg'
-  sha256 'bb3f9f772e054e14d313e53c13f467e6a02fd2969220442675083c6dfdeaf333'
-  app 'Pages.app'
+  url 'https://setup/Software/apple.com/Pages/Pages%205.5.3.pkg'
+  sha256 'ed81ea33302f5d7bfb9f5fdc47bac157eb9acc4b4132fde56979a2fcba4aa463'
+  pkg 'Pages 5.5.3.pkg'
 
   license :commercial
 end

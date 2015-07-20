@@ -4,9 +4,9 @@ cask :v1 => 'icon-slate' do
 
   homepage 'http://www.kodlian.com/apps/icon-slate'
 
-  url 'https://setup/Software/kodlian.com/Icon%20Slate/Icon%20Slate%204.4.2.dmg'
-  sha256 'e90b31788a4c87dbd022dd3a995b145b891f265b1b98e4c60f4c8f8bbae04c1e'
-  app 'Icon Slate.app'
+  url 'https://setup/Software/kodlian.com/Icon%20Slate/Icon%20Slate%204.4.2.pkg'
+  sha256 'd51da4042b0f9abf7e5ae9a2d82ee7c8a391df2918b93619023147baffd684ef'
+  pkg 'Icon Slate 4.4.2.pkg'
 
   license :commercial
 end

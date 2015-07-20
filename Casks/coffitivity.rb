@@ -4,9 +4,9 @@ cask :v1 => 'coffitivity' do
 
   homepage 'https://coffitivity.com/'
 
-  url 'https://setup/Software/coffitivity.com/Coffitivity/Coffitivity%201.0.1.dmg'
-  sha256 '7a10661a9f32f2fc115cc1cf6d7179fe1421a9937da5e0bbd2f5804dae6c4308'
-  app 'Coffitivity.app'
+  url 'https://setup/Software/coffitivity.com/Coffitivity/Coffitivity%201.0.1.pkg'
+  sha256 '595834e6fceef0a001f6f1d6a4142eecca3e5f50f8e0b4c8ea4b8f38806fc565'
+  pkg 'Coffitivity 1.0.1.pkg'
 
   license :commercial
 end

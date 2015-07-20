@@ -4,9 +4,9 @@ cask :v1 => 'autoping' do
 
   homepage 'https://itunes.apple.com/us/app/autoping/id632347870?mt=12'
 
-  url 'https://setup/Software/memset.com/autoping/autoping%201.02.dmg'
-  sha256 '9b33d9d9a6caa4b8dbefef9853c401507c95d9ca9d48ff17851861b683a72bbf'
-  app 'autoping.app'
+  url 'https://setup/Software/memset.com/autoping/autoping%201.02.pkg'
+  sha256 '53cea0d5037e83e5ec257e8f9acfacc9ee05cf8bbe03faccad30186fade3f3ad'
+  pkg 'autoping 1.02.pkg'
 
   license :commercial
 end

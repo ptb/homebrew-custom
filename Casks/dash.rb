@@ -4,9 +4,9 @@ cask :v1 => 'dash' do
 
   homepage 'https://kapeli.com/dash'
 
-  url 'https://setup/Software/kapeli.com/Dash/Dash%202.2.4.dmg'
-  sha256 '3d8d6af89c56cc28807275dabab93bc7f757068f835eb88078f0cc8e7923f256'
-  app 'Dash.app'
+  url 'https://setup/Software/kapeli.com/Dash/Dash%203.0.2.pkg'
+  sha256 '434c93b154b735fa86702bb1882088852be8ead9f4ccda0e25e94937379ba680'
+  pkg 'Dash 3.0.2.pkg'
 
   license :commercial
 end

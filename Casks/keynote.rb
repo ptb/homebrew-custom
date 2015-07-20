@@ -4,9 +4,9 @@ cask :v1 => 'keynote' do
 
   homepage 'http://www.apple.com/mac/keynote/'
 
-  url 'https://setup/Software/apple.com/Keynote/Keynote%206.5.3.dmg'
-  sha256 '7dfb4709d82a7cf22e813902a1b738c470c4df1dcae9ed30cd15c5e23947083a'
-  app 'Keynote.app'
+  url 'https://setup/Software/apple.com/Keynote/Keynote%206.5.3.pkg'
+  sha256 '871f7dddccd40966919b3333516a840171c74e0704d24589bd2d4fa58545d57e'
+  pkg 'Keynote 6.5.3.pkg'
 
   license :commercial
 end

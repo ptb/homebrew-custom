@@ -4,9 +4,9 @@ cask :v1 => 'hardwaregrowler' do
 
   homepage 'http://growl.info/downloads'
 
-  url 'https://setup/Software/growl.info/HardwareGrowler/HardwareGrowler%202.2.dmg'
-  sha256 'e2102e369c98de260f356977f0e100838356267353936b460beb2f62473e5099'
-  app 'HardwareGrowler.app'
+  url 'https://setup/Software/growl.info/HardwareGrowler/HardwareGrowler%202.2.pkg'
+  sha256 '08c405914d978da8e0c527cdea9d6da89ed81c6e66b6fa521056ac834a293664'
+  pkg 'HardwareGrowler 2.2.pkg'
 
   license :commercial
 end
