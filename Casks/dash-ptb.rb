@@ -1,4 +1,4 @@
-cask :v1 => 'dash' do
+cask :v1 => 'dash-ptb' do
   name 'Dash'
   version '2.2.4'
 
