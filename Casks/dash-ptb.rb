@@ -1,6 +1,6 @@
 cask :v1 => 'dash-ptb' do
   name 'Dash'
-  version '2.2.4'
+  version '3.0.2'
 
   homepage 'https://kapeli.com/dash'
 
