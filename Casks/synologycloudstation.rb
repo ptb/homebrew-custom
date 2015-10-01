@@ -1,11 +1,11 @@
 cask :v1 => 'synologycloudstation' do
   name 'Synology Cloud Station'
-  version '2015.05.26'
+  version '2015.09.14'
 
   homepage 'https://www.synology.com/en-us/releaseNote/Cloud%20Station'
 
-  url 'https://setup/Software/synology.com/Synology%20Cloud%20Station/Synology%20Cloud%20Station%202015.05.26.dmg'
-  sha256 '0dfc26413946b454456f70ead196286a5a816eaed950f9dd3cd6fac63b3c8d1a'
+  url 'https://setup/Software/synology.com/Synology%20Cloud%20Station/Synology%20Cloud%20Station%202015.09.14.dmg'
+  sha256 'aa544573ca9f7d3cb6693cba2406901a8b5e241eba0ed12762346c2f31b7c0cd'
   app 'Synology Cloud Station.app'
 
   license :commercial
