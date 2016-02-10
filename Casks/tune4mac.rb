@@ -1,12 +1,11 @@
-cask :v1 => 'tune4mac' do
+cask 'tune4mac' do
+  version '4.1.5'
+  sha256 'c10653aa3d1e444623eaf7dc295a0f46aa1ac9561f83b81243ea9a643a2a825b'
+
+  url 'http://www.tune4mac.com/download/mac-itunes-video-converter-platinum.dmg'
   name 'Tune4mac iTunes Video Converter'
-  version '4.1.3'
-
   homepage 'http://www.tune4mac.com/mac-itunes-video-converter/'
-
-  url 'https://setup/Software/tune4mac.com/Tune4mac%20iTunes%20Video%20Converter/Tune4mac%20iTunes%20Video%20Converter%204.1.3.dmg'
-  sha256 '153bed32273b65e6c8ab770d93ccca3027cd6fb630fea6d612e41a445e529280'
-  app 'Tune4mac iTunes Video Converter.app'
-
   license :commercial
+
+  app 'Tune4mac iTunes Video Converter Platinum.app'
 end
