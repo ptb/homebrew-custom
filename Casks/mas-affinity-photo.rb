@@ -1,4 +1,4 @@
-cask 'ams-affinity-photo' do
+cask 'mas-affinity-photo' do
   version '1.4.1'
   sha256 'abe7f234fc9579aff02c4e72b9ffe492754fe8a4fd45989aba0d5cc3878e337b'
 
