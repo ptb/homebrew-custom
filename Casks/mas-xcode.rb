@@ -1,4 +1,4 @@
-cask 'xcode' do
+cask 'mas-xcode' do
   version '7.2.1'
   sha256 '0eac066c09ca1a0afe034706fe27cef0784fa6aad7c365f6ae0dbc57264464e1'
 
