@@ -3,7 +3,7 @@ cask 'carbon-copy-cloner' do
   sha256 'ca8a081d35606c899745bb40a64a461e14a00de7dd6e3bb48da3a3c05f265de8'
 
   # Details: http://bombich.com/software/download_ccc.php?v=latest&l=alternate
-  url 'http://bombich.com/software/files/ccc-#{version}.zip'
+  url "http://bombich.com/software/files/ccc-#{version}.zip"
   name 'Carbon Copy Cloner'
   homepage 'https://bombich.com/'
   license :commercial
