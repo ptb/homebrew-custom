@@ -60,7 +60,6 @@ class Ffmpeg < Formula
   depends_on "libcaca" => :optional
   depends_on "libbluray" => :optional
   depends_on "libsoxr" => :optional
-  depends_on "libquvi" => :optional
   depends_on "libvidstab" => :optional
   depends_on "x265" => :optional
   depends_on "openssl" => :optional
@@ -106,7 +105,6 @@ class Ffmpeg < Formula
     args << "--enable-frei0r" if build.with? "frei0r"
     args << "--enable-libcaca" if build.with? "libcaca"
     args << "--enable-libsoxr" if build.with? "libsoxr"
-    args << "--enable-libquvi" if build.with? "libquvi"
     args << "--enable-libvidstab" if build.with? "libvidstab"
     args << "--enable-libx265" if build.with? "x265"
     args << "--enable-libwebp" if build.with? "webp"
