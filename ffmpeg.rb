@@ -12,7 +12,6 @@ class Ffmpeg < Formula
 
   option "without-x264", "Disable H.264 encoder"
   option "without-lame", "Disable MP3 encoder"
-  option "without-libvo-aacenc", "Disable VisualOn AAC encoder"
   option "without-xvid", "Disable Xvid MPEG-4 video encoder"
   option "without-qtkit", "Disable deprecated QuickTime framework"
 
@@ -40,7 +39,6 @@ class Ffmpeg < Formula
 
   depends_on "x264" => :recommended
   depends_on "lame" => :recommended
-  depends_on "libvo-aacenc" => :recommended
   depends_on "xvid" => :recommended
 
   depends_on "faac" => :optional
@@ -87,7 +85,6 @@ class Ffmpeg < Formula
 
     args << "--enable-libx264" if build.with? "x264"
     args << "--enable-libmp3lame" if build.with? "lame"
-    args << "--enable-libvo-aacenc" if build.with? "libvo-aacenc"
     args << "--enable-libxvid" if build.with? "xvid"
 
     args << "--enable-libfontconfig" if build.with? "fontconfig"
