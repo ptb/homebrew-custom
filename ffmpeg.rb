@@ -2,7 +2,7 @@ class Ffmpeg < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
   url "https://github.com/FFmpeg/FFmpeg/archive/n3.0.tar.gz"
-  sha256 "f19ff77a2f7f736a41dd1499eef4784bf3cb7461f07c13a268164823590113c0"
+  sha256 "370e5d8d22e2f67f3bb796ebdef20436c0df67b7d03a12c3e74afb79af25f263"
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   patch do
