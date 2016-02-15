@@ -1,19 +1,13 @@
 class Ffmpeg < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
-  url "https://ffmpeg.org/releases/ffmpeg-2.8.6.tar.bz2"
-  sha256 "40611e329bc354592c6f8f1deb033c31b91f80e91f5707ca4f9afceca78d8e62"
+  url "https://ffmpeg.org/releases/ffmpeg-3.0.tar.bz2"
+  sha256 "f19ff77a2f7f736a41dd1499eef4784bf3cb7461f07c13a268164823590113c0"
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   patch do
-    url "https://gist.github.com/outlyer/4a88f1adb7f895b93fd9/raw/ffmpeg-2.8-defaultstreams.patch"
-    sha256 "bd864309ede4154e358814baccbb991d6ee1ecb5ece0ed57827da02ae993c490"
-  end
-  
-  bottle do
-    sha256 "e94b8ef2acf9d3dcddf595fe45d26194f64421b571437fd5c0d1e877c2b4091b" => :el_capitan
-    sha256 "2c14712c0972cb17a4077e90585ecacef45b4f9cf4d8dd7620d8bd47262f916a" => :yosemite
-    sha256 "c83613651d30e5de7e5df44199fe1ec5df488b0685f3cc622bb1f1af1bf22eae" => :mavericks
+      url "https://gist.githubusercontent.com/outlyer/4a88f1adb7f895b93fd9/raw/035af34dfa30db24fae35d75276d5b3dc48c0c48/ffmpeg-3.0-defaultstreams.patch"
+      sha256 "6d2f96e04624a9b3af0408000e0455d8f291e2df3e75c47429d2e9c1851ebb9f"
   end
 
   option "without-x264", "Disable H.264 encoder"
@@ -37,8 +31,6 @@ class Ffmpeg < Formula
   option "with-libsoxr", "Enable the soxr resample library"
   option "with-webp", "Enable using libwebp to encode WEBP images"
   option "with-zeromq", "Enable using libzeromq to receive commands sent through a libzeromq client"
-  option "with-snappy", "Enable Snappy library"
-  option "with-dcadec", "Enable dcadec library"
 
   depends_on "pkg-config" => :build
 
@@ -62,7 +54,6 @@ class Ffmpeg < Formula
   depends_on "libass" => :optional
   depends_on "openjpeg" => :optional
   depends_on "sdl" if build.with? "ffplay"
-  depends_on "snappy" => :optional
   depends_on "speex" => :optional
   depends_on "schroedinger" => :optional
   depends_on "fdk-aac" => :optional
@@ -78,8 +69,6 @@ class Ffmpeg < Formula
   depends_on "libssh" => :optional
   depends_on "webp" => :optional
   depends_on "zeromq" => :optional
-  depends_on "libbs2b" => :optional
-  depends_on "dcadec" => :optional
 
   def install
     args = ["--prefix=#{prefix}",
@@ -91,7 +80,7 @@ class Ffmpeg < Formula
             "--enable-avresample",
             "--cc=#{ENV.cc}",
             "--host-cflags=#{ENV.cflags}",
-            "--host-ldflags=#{ENV.ldflags}",
+            "--host-ldflags=#{ENV.ldflags}"
            ]
 
     args << "--enable-opencl" if MacOS.version > :lion
@@ -100,7 +89,6 @@ class Ffmpeg < Formula
     args << "--enable-libmp3lame" if build.with? "lame"
     args << "--enable-libvo-aacenc" if build.with? "libvo-aacenc"
     args << "--enable-libxvid" if build.with? "xvid"
-    args << "--enable-libsnappy" if build.with? "snappy"
 
     args << "--enable-libfontconfig" if build.with? "fontconfig"
     args << "--enable-libfreetype" if build.with? "freetype"
@@ -126,8 +114,6 @@ class Ffmpeg < Formula
     args << "--enable-libx265" if build.with? "x265"
     args << "--enable-libwebp" if build.with? "webp"
     args << "--enable-libzmq" if build.with? "zeromq"
-    args << "--enable-libbs2b" if build.with? "libbs2b"
-    args << "--enable-libdcadec" if build.with? "dcadec"
     args << "--disable-indev=qtkit" if build.without? "qtkit"
 
     if build.with? "openjpeg"
