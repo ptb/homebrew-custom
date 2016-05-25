@@ -1,13 +1,13 @@
 cask 'mas-xcode' do
-  version '7.2.1'
-  sha256 '0eac066c09ca1a0afe034706fe27cef0784fa6aad7c365f6ae0dbc57264464e1'
+  version '7.3.1'
+  sha256 'ac6468c1a1d5c12ec9761c839d835b2045ffdce39f7131a8673f8fed44d13bef'
 
-  url 'file:///Volumes/Storage/Software/apple.com/mas-xcode-7.2.1.pkg'
+  url 'file:///Volumes/Storage/Software/apple.com/mas-xcode-7.3.1.pkg'
   name 'Xcode'
   homepage 'https://developer.apple.com/xcode/download/'
   license :commercial
 
-  pkg 'mas-xcode-7.2.1.pkg'
+  pkg 'mas-xcode-7.3.1.pkg'
 
   postflight do
     system '/usr/bin/sudo', '-E', '--',
