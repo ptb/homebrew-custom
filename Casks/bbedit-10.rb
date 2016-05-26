@@ -8,9 +8,9 @@ cask 'bbedit-10' do
   license :commercial
 
   app 'BBEdit.app'
-  binary 'BBEdit.app/Contents/Helpers/bbdiff', target: 'bbdiff'
-  binary 'BBEdit.app/Contents/Helpers/bbedit_tool', target: 'bbedit'
-  binary 'BBEdit.app/Contents/Helpers/bbfind', target: 'bbfind'
+  binary "#{appdir}/BBEdit.app/Contents/Helpers/bbdiff", target: 'bbdiff'
+  binary "#{appdir}/BBEdit.app/Contents/Helpers/bbedit_tool", target: 'bbedit'
+  binary "#{appdir}/BBEdit.app/Contents/Helpers/bbfind", target: 'bbfind'
 
   postflight do
     suppress_move_to_applications
