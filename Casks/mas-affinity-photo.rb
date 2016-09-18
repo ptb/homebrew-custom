@@ -1,11 +1,11 @@
 cask 'mas-affinity-photo' do
-  version '1.4.1'
-  sha256 'abe7f234fc9579aff02c4e72b9ffe492754fe8a4fd45989aba0d5cc3878e337b'
+  version '1.4.2'
+  sha256 '4bb1abce4b225430ea195b368d11633ad2d1ddc158aa6483af890751adf32b66'
 
-  url 'file:///Volumes/Storage/Software/serif.com/mas-affinity-photo-1.4.1.pkg'
+  url 'file:///Volumes/Storage/Software/serif.com/mas-affinity-photo-1.4.2.pkg'
   name 'Affinity Photo'
   homepage 'https://affinity.serif.com/en-us/photo/'
   license :commercial
 
-  pkg 'mas-affinity-photo-1.4.1.pkg'
+  pkg 'mas-affinity-photo-1.4.2.pkg'
 end
