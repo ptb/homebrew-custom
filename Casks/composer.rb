@@ -1,8 +1,8 @@
 cask 'composer' do
-  version '9.81'
-  sha256 '5ea83a403ae355debe54eccc6b9e5487cf79b2d6fd6408e4ee73c1f8bd7ddb5a'
+  version '9.96'
+  sha256 '0b1e9b689bd7863a20305ee4cc7eba54e360087621e14825e8033d09a05057a0'
 
-  url 'file:///Volumes/Storage/Software/jamfsoftware.com/composer-9.81.dmg'
+  url 'file:///Volumes/Storage/Software/jamfsoftware.com/composer-9.96.dmg'
   name 'JAMF Composer'
   homepage 'http://www.jamfsoftware.com/products/composer/'
   license :commercial
