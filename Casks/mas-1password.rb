@@ -1,11 +1,11 @@
 cask 'mas-1password' do
-  version '6.3.2'
-  sha256 'd1d35cea2da89b00cdddc0491744a538425ce7e8b22fc6674ebe1488e33725e1'
+  version '6.3.3'
+  sha256 '8bae1f74205b47924212f4257b6b4e4e0ce57fb5743fb83fc36e2d585bf4601f'
 
-  url 'file:///Volumes/Storage/Software/agilebits.com/mas-1password-6.3.2.pkg'
+  url 'file:///Volumes/Storage/Software/agilebits.com/mas-1password-6.3.3.pkg'
   name '1Password'
   homepage 'https://agilebits.com/onepassword/mac'
   license :commercial
 
-  pkg 'mas-1password-6.3.2.pkg'
+  pkg 'mas-1password-6.3.3.pkg'
 end
