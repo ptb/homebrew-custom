@@ -1,11 +1,11 @@
 cask 'mas-numbers' do
-  version '4.0'
-  sha256 'eab174ded38b46625388d3c865a640885cbdd7d4bcdbe2af552a12cc5d8c1292'
+  version '4.2'
+  sha256 '13f0758f20ec630b9b6be04a89c4f1af7b203f39c99de8fbc1eb32bf49413a1f'
 
-  url 'file:///Volumes/Storage/Software/apple.com/mas-numbers-4.0.pkg'
+  url 'file:///Volumes/Storage/Software/apple.com/mas-numbers-4.2.pkg'
   name 'Numbers'
   homepage 'http://www.apple.com/mac/numbers/'
   license :commercial
 
-  pkg 'mas-numbers-4.0.pkg'
+  pkg 'mas-numbers-4.2.pkg'
 end
