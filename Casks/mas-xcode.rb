@@ -1,13 +1,13 @@
 cask 'mas-xcode' do
-  version '8.0'
-  sha256 '614a596e4540efea533a6778a92f6e92b5a65ad68e8bfec35573d44e2062afb0'
+  version '8.3.3'
+  sha256 '1f08b4d5895f424f8942a1a9d4f9777ce2995298047587a8702f0a9c8a814d1f'
 
-  url 'file:///Volumes/Storage/Software/apple.com/mas-xcode-8.0.pkg'
+  url 'file:///Volumes/Storage/Software/apple.com/mas-xcode-8.3.3.pkg'
   name 'Xcode'
   homepage 'https://developer.apple.com/xcode/download/'
   license :commercial
 
-  pkg 'mas-xcode-8.0.pkg'
+  pkg 'mas-xcode-8.3.3.pkg'
 
   postflight do
     system '/usr/bin/sudo', '-E', '--',
