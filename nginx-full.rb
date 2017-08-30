@@ -11,7 +11,7 @@ class NginxFull < Formula
   end
 
   bottle do
-    root_url "file:///Volumes/Caches"
+    root_url "file:///Volumes/Caches/brew"
     sha256 "9014194affa6dc1e5539480c2968ee79af344b9026ebc4f5fc19af5128f88c53" => :high_sierra
   end
 

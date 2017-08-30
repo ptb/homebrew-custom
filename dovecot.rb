@@ -6,7 +6,7 @@ class Dovecot < Formula
 
   bottle do
     rebuild 1
-    root_url "file:///Volumes/Caches"
+    root_url "file:///Volumes/Caches/brew"
     sha256 "efed535fc67500b6fa931f2cdab1634dfc6e392832ef9a9cfefb0726187e11e1" => :high_sierra
   end
 

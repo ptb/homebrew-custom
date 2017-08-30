@@ -12,7 +12,7 @@ class Ffmpeg < Formula
 
   bottle do
     rebuild 1
-    root_url "file:///Volumes/Caches"
+    root_url "file:///Volumes/Caches/brew"
     sha256 "b2043088d8e7336067e0a12b2b404bedd4c9c8e6c18f356b909086b2b260706c" => :high_sierra
   end
 
