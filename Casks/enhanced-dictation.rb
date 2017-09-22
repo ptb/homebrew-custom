@@ -9,5 +9,5 @@ cask 'enhanced-dictation' do
   homepage 'https://support.apple.com/HT202584'
   license :commercial
 
-  pkg 'enhanced-dictation-2.0.4.pkg'
+  pkg 'enhanced-dictation--2.0.4.pkg'
 end
