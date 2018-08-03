@@ -5,7 +5,6 @@ cask 'sketchup-pro' do
   url 'file:///Volumes/Software/sketchup.com/sketchup-pro-8.0.16845.dmg'
   name 'SketchUp Pro'
   homepage 'http://www.sketchup.com/products/sketchup-pro'
-  license :commercial
 
   pkg 'SketchUp Pro 8.0 Installer.pkg'
 end
