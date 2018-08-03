@@ -5,7 +5,6 @@ cask 'ipmenulet' do
   url "https://github.com/mcandre/IPMenulet/releases/download/v#{version}/IPMenulet-#{version}.dmg"
   name 'IPMenulet'
   homepage 'http://www.yellosoft.us/ipmenulet'
-  license :bsd
 
   app 'IPMenulet.app'
 end
