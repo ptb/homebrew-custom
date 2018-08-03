@@ -5,7 +5,6 @@ cask 'mas-wifi-explorer' do
   url 'file:///Volumes/Storage/Software/adriangranados.com/mas-wifi-explorer-2.2.pkg'
   name 'WiFi Explorer'
   homepage 'https://www.adriangranados.com/apps/wifi-explorer'
-  license :commercial
 
   pkg 'mas-wifi-explorer-2.2.pkg'
 end
