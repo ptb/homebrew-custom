@@ -5,7 +5,6 @@ cask 'pcalc-3' do
   url 'http://s3.amazonaws.com/tlasystems/PCalc-3.9.dmg'
   name 'PCalc 3'
   homepage 'http://www.pcalc.com/english/download.html'
-  license :commercial
 
   app 'PCalc.app'
 end
