@@ -5,7 +5,6 @@ cask 'mas-icon-slate' do
   url 'file:///Volumes/Storage/Software/kodlian.com/mas-icon-slate-4.4.8.pkg'
   name 'Icon Slate'
   homepage 'http://www.kodlian.com/apps/icon-slate'
-  license :commercial
 
   pkg 'mas-icon-slate-4.4.8.pkg'
 end
