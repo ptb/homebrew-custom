@@ -5,7 +5,6 @@ cask 'mas-justnotes' do
   url 'file:///Volumes/Storage/Software/selfcoded.com/mas-justnotes-1.3.3.pkg'
   name 'Justnotes'
   homepage 'http://selfcoded.com/justnotes/'
-  license :commercial
 
   pkg 'mas-justnotes-1.3.3.pkg'
 end
