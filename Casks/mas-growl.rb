@@ -5,7 +5,6 @@ cask 'mas-growl' do
   url 'file:///Volumes/Storage/Software/growl.info/mas-growl-2.1.3.pkg'
   name 'Growl'
   homepage 'http://growl.info/'
-  license :commercial
 
   pkg 'mas-growl-2.1.3.pkg'
 end
