@@ -5,7 +5,6 @@ cask 'tune4mac' do
   url 'http://www.tune4mac.com/download/mac-itunes-video-converter-platinum.dmg'
   name 'Tune4mac iTunes Video Converter'
   homepage 'http://www.tune4mac.com/mac-itunes-video-converter-platinum/'
-  license :commercial
 
   app 'Tune4mac iTunes Video Converter Platinum.app'
 end
