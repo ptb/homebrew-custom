@@ -5,7 +5,6 @@ cask 'composer' do
   url 'file:///Volumes/Software/jamfsoftware.com/composer-9.96.dmg'
   name 'JAMF Composer'
   homepage 'http://www.jamfsoftware.com/products/composer/'
-  license :commercial
 
   app 'Composer.app'
 end
