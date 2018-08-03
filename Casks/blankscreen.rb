@@ -5,7 +5,6 @@ cask 'blankscreen' do
   url 'http://www.wurst-wasser.net/wiki/images/3/30/BlankScreenSaverApp_0200.zip'
   name 'BlankScreen.saver'
   homepage 'http://www.wurst-wasser.net/wiki/index.php/Blank_Screen_Saver'
-  license :oss
 
   screen_saver 'BlankScreen Saver Folder/BlankScreen.saver'
 end
