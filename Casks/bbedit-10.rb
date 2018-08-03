@@ -5,7 +5,6 @@ cask 'bbedit-10' do
   url "https://s3.amazonaws.com/BBSW-download/BBEdit_#{version}.dmg"
   name 'BBEdit'
   homepage 'http://www.barebones.com/products/bbedit/'
-  license :commercial
 
   app 'BBEdit.app'
   binary "#{appdir}/BBEdit.app/Contents/Helpers/bbdiff", target: 'bbdiff'
