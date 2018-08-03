@@ -5,7 +5,6 @@ cask 'mas-affinity-photo' do
   url 'file:///Volumes/Storage/Software/serif.com/mas-affinity-photo-1.4.3.pkg'
   name 'Affinity Photo'
   homepage 'https://affinity.serif.com/en-us/photo/'
-  license :commercial
 
   pkg 'mas-affinity-photo-1.4.3.pkg'
 end
