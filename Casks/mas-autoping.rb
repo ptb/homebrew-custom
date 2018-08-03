@@ -5,7 +5,6 @@ cask 'mas-autoping' do
   url 'file:///Volumes/Storage/Software/memset.com/mas-autoping-1.02.pkg'
   name 'autoping'
   homepage 'https://itunes.apple.com/us/app/autoping/id632347870?mt=12'
-  license :commercial
 
   pkg 'mas-autoping-1.02.pkg'
 end
