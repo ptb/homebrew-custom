@@ -5,7 +5,6 @@ cask 'mas-1password' do
   url 'file:///Volumes/Storage/Software/agilebits.com/mas-1password-6.7.pkg'
   name '1Password'
   homepage 'https://agilebits.com/onepassword/mac'
-  license :commercial
 
   pkg 'mas-1password-6.7.pkg'
 end
