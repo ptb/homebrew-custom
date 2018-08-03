@@ -5,7 +5,6 @@ cask 'text-to-speech-alex' do
   url 'file:///Volumes/Software/apple.com/text-to-speech-alex--2.0.36.pkg'
   name 'Text to Speech: Alex'
   homepage 'https://support.apple.com/kb/PH18734'
-  license :commercial
 
   pkg 'text-to-speech-alex--2.0.36.pkg'
 end
