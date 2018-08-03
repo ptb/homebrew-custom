@@ -5,7 +5,6 @@ cask 'mas-keynote' do
   url 'file:///Volumes/Storage/Software/apple.com/mas-keynote-7.2.pkg'
   name 'Keynote'
   homepage 'http://www.apple.com/mac/keynote/'
-  license :commercial
 
   pkg 'mas-keynote-7.2.pkg'
 end
