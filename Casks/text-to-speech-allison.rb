@@ -5,7 +5,6 @@ cask 'text-to-speech-allison' do
   url 'file:///Volumes/Software/apple.com/text-to-speech-allison--7.0.2.pkg'
   name 'Text to Speech: Allison'
   homepage 'https://support.apple.com/kb/PH18734'
-  license :commercial
 
   pkg 'text-to-speech-allison--7.0.2.pkg'
 end
