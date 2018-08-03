@@ -5,7 +5,6 @@ cask 'safari-technology-preview' do
   url 'https://secure-appldnld.apple.com/STP/091-17778-20170628-3F7E556A-5B70-11E7-A994-CCEF7F942F55/SafariTechnologyPreview.dmg'
   name 'Safari Technology Preview'
   homepage 'https://developer.apple.com/safari/technology-preview/'
-  license :gratis
 
   pkg 'Safari Technology Preview.pkg'
 
