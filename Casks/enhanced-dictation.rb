@@ -7,7 +7,6 @@ cask 'enhanced-dictation' do
   url 'file:///Volumes/Software/apple.com/enhanced-dictation--2.0.4.pkg'
   name 'Enhanced Dictation'
   homepage 'https://support.apple.com/HT202584'
-  license :commercial
 
   pkg 'enhanced-dictation--2.0.4.pkg'
 end
