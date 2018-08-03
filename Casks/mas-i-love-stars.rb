@@ -5,7 +5,6 @@ cask 'mas-i-love-stars' do
   url 'file:///Volumes/Storage/Software/potionfactory.com/mas-i-love-stars-4.4.1.pkg'
   name 'I Love Stars'
   homepage 'http://www.karelia.com/products/stars/'
-  license :commercial
 
   pkg 'mas-i-love-stars-4.4.1.pkg'
 end
