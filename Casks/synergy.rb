@@ -5,7 +5,6 @@ cask 'synergy' do
   url 'http://s3.wincent.com/synergy/releases/synergy-6.0a4.zip'
   name 'Synergy'
   homepage 'https://wincent.com/products/synergy'
-  license :commercial
 
   app 'Synergy 6.0a4 (96eed54)/Synergy Preferences.app'
 end
