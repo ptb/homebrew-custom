@@ -5,7 +5,6 @@ cask 'mas-hardwaregrowler' do
   url 'file:///Volumes/Storage/Software/growl.info/mas-hardwaregrowler-2.2.pkg'
   name 'HardwareGrowler'
   homepage 'http://growl.info/documentation/hardwaregrowler.php'
-  license :commercial
 
   pkg 'mas-hardwaregrowler-2.2.pkg'
 end
