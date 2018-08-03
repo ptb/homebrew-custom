@@ -5,7 +5,6 @@ cask 'mas-numbers' do
   url 'file:///Volumes/Storage/Software/apple.com/mas-numbers-4.2.pkg'
   name 'Numbers'
   homepage 'http://www.apple.com/mac/numbers/'
-  license :commercial
 
   pkg 'mas-numbers-4.2.pkg'
 end
