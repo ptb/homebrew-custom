@@ -5,7 +5,6 @@ cask 'adobe-creative-cloud-2014' do
   url 'file:///Volumes/Software/adobe.com/adobe-creative-cloud-2014.pkg'
   name 'Adobe Creative Cloud 2014'
   homepage 'http://www.adobe.com/creativecloud.html'
-  license :commercial
 
   pkg 'adobe-creative-cloud-2014.pkg'
 end
