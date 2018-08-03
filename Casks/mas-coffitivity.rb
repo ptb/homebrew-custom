@@ -5,7 +5,6 @@ cask 'mas-coffitivity' do
   url 'file:///Volumes/Storage/Software/coffitivity.com/mas-coffitivity-1.0.1.pkg'
   name 'Coffitivity'
   homepage 'https://coffitivity.com/'
-  license :commercial
 
   pkg 'mas-coffitivity-1.0.1.pkg'
 end
