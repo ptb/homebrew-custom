@@ -5,7 +5,6 @@ cask 'mas-xcode' do
   url 'file:///Volumes/Storage/Software/apple.com/mas-xcode-8.3.3.pkg'
   name 'Xcode'
   homepage 'https://developer.apple.com/xcode/download/'
-  license :commercial
 
   pkg 'mas-xcode-8.3.3.pkg'
 
