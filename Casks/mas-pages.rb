@@ -5,7 +5,6 @@ cask 'mas-pages' do
   url 'file:///Volumes/Storage/Software/apple.com/mas-pages-6.2.pkg'
   name 'Pages'
   homepage 'http://www.apple.com/mac/pages/'
-  license :commercial
 
   pkg 'mas-pages-6.2.pkg'
 end
